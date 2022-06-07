@@ -1,6 +1,8 @@
 body {
     width: 850px;
     margin:0 auto;
+    background-image: url(galaxies.jpg);
+    background-size: contain;
 }
 
 
@@ -10,8 +12,6 @@ main {
     align-items: center;
     justify-content: center;
     height: 450px; 
-    background-image: url(./space.jpg);
-    background-size: contain;
     font-family:'Changa', sans-serif;
 }
 
@@ -19,7 +19,6 @@ section{
     display: flex;
     justify-content: space-between;
     height: 324px;
-    background-color: blue;
     padding-left: 60px;
     font-family: 'Roboto', sans-serif;
 }
@@ -33,7 +32,18 @@ h1{
     background-color:#ff69b4;
     padding: 20px;
     border-style: solid;
-    border-width: 4px
+    border-width: 4px;
     border-color: white;
 
+
+}
+
+p{ 
+    color: white;
+
+
+}
+
+h3{
+    color: white;
 }
